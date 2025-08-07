@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .p {
+                padding: 10px;
+                background-color: aqua;
+                border-style: dashed;
+                border-spacing: 10px;
+            }
+            .t {
+                text-align: center;
+            }
+
+    </style>
+</head>
+<body>
+    <form>
+        <table align="center" class="p">
+            <h3 style="text-align: center;color: blueviolet;"><u>Student Registration Form Using Table In Html</u></h3>
+            <tr>
+                <td >First Name</td>
+                <td><input type="text" name="first_name" id="first_name" maxlength="50" placeholder="Ghanendra" required> (max 50 caharacters a-z amd A-Z) </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lastname" id="last name" maxlength="50" placeholder="Yadhav" required> (max 50 charaters a-z amd A-Z) </td> 
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><input type="email" name="email" id="email" required placeholder="Yghanendra@gmail.com"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="tel" name="mobile" id="mobile" required maxlength="10" placeholder="7842xxxxxx"> (10 digits allowed)</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    Male <input type="radio" name="" id="">
+                    Female <input type="radio" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth(DOB)</td>
+                <td>
+                    <select name="day" id="day">
+                <option value="Day:">Day:</option>
+                <option value="Day:">1</option>
+                <option value="Day:">2</option>
+                <option value="Day:">3</option>
+                <option value="Day:">4</option>
+                <option value="Day:">5</option>
+                <option value="Day:">6</option>
+                <option value="Day:">7</option>
+                <option value="Day:">8</option>
+                <option value="Day:">9</option>
+                <option value="Day:">10</option>
+                <option value="Day:">11</option>
+                <option value="Day:">12</option>
+                <option value="Day:">13</option>
+                <option value="Day:">14</option>
+                <option value="Day:">15</option>
+                <option value="Day:">16</option>
+                <option value="Day:">17</option>
+                <option value="Day:">18</option>
+                <option value="Day:">19</option>
+                <option value="Day:">20</option>
+                <option value="Day:">21</option>
+                <option value="Day:">22</option>
+                <option value="Day:">23</option>
+                <option value="Day:">24</option>
+                <option value="Day:">25</option>
+                <option value="Day:">26</option>
+                <option value="Day:">27</option>
+                <option value="Day:">28</option>
+                <option value="Day:">29</option>
+                <option value="Day:">30</option>
+                <option value="Day:">31</option>
+            </select>
+            <select name="Month" id="Month">
+                <option value="Month">Month:</option>
+                <option value="Month">January</option>
+                <option value="Month">February</option>
+                <option value="Month">March</option>
+                <option value="Month">April</option>
+                <option value="Month">May</option>
+                <option value="Month">June</option>
+                <option value="Month">July</option>
+                <option value="Month">August</option>
+                <option value="Month">September</option>
+                <option value="Month">October</option>
+                <option value="Month">November</option>
+                <option value="Month">December</option>
+            </select>
+            <select name="Year" id="Year">
+                <option value="Year">Year:</option>
+                <option value="2007">2007</option>
+                <option value="2006">2006</option>
+                <option value="2005">2005</option>
+                <option value="2004">2004</option>
+                <option value="2003">2003</option>
+                <option value="2002">2002</option>
+                <option value="2001">2001</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+                <option value="1998">1998</option>
+                <option value="1997">1997</option>
+                <option value="1996">1996</option>
+                <option value="1995">1995</option>
+             </select>
+                </td>
+            </tr>
+            <tr>
+              <td>Address</td>
+                <td><textarea name="" id="" cols="35" rows="6"></textarea></td>
+            </tr>
+            <tr>
+            <td>City</td>
+                <td><input type="text" name="city" id="city" required maxlength="50" placeholder="Bangalore"> (Max 50 characters allowed)</td>
+            </tr>
+            <tr>
+                <td>PIN CODE</td>
+                <td><input type="text" name="pin" id="pin" required maxlength="6" placeholder="560068">( Max 6 numbers allowed)</td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text" name="state" id="state" required placeholder="Karnataka" maxlength="50"> (Max 50 characters allowed)</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><input type="text" name="" id="" required placeholder="India"></td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>
+                    <input type="checkbox" name="hobby 1" id="Drawing"> Drawing 
+                    <input type="checkbox" name="hobby 2" id="singing"> Singing 
+                    <input type="checkbox" name="hobby 3" id="Dancing"> Dancing 
+                    <input type="checkbox" name="hobby4" id="Sketching"> Sketching 
+                    <br>
+                    <input type="checkbox" name="hobby 5" id="Others"> Others 
+                    <input type="text" name="" id="" placeholder="EX-Teaching"> (Max 50 characters allowed)
+                </td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <input type="checkbox" name="Q1" id="High School(10th)"> High School(10th)
+                    <br>
+                    <input type="checkbox" name="Q2" id="Higher School(12th)"> Higher School(12th)
+                    <br>
+                    <input type="checkbox" name="Q3" id="Graduation(Bachelors)"> Graduation(Bachelors)
+                    <br>
+                    <input type="checkbox" name="Q4" id="Post Graduation(Masters)"> Post Graduation(Masters)
+                    <br>
+                    <input type="checkbox" name="Q5" id="Phd"> Phd
+                </td>
+            </tr>
+            <tr>
+                <td>Courses <br>
+                Applied For</td>
+                <td>
+                    <input type="radio" name="1" id="Bachelor of Computer Applications"> BCA (Bachelor of Computer Applications)
+                    <br>
+                    <input type="radio" name="2" id="Bachelor of Commerce"> B.Com (Bachelor of Commerce)
+                    <br>
+                    <input type="radio" name="3" id="Bachelor of Science"> B.sc (Bachelor of Science)
+                    <br>
+                    <input type="radio" name="4" id="Bachelor of Arts"> BA (Bachelor of Arts)
+                    <br>
+                    <input type="radio" name="5" id="Master of Computer Applications"> MCA (Master of Computer Applications)
+                    <br>
+                    <input type="radio" name="6" id="Masters of Commerce"> M.Com (Masters of Commerce)
+                    <br>
+                    <input type="radio" name="7" id="Masters of Science"> M.Sc (Masters of Science)
+                    <br>
+                    <input type="radio" name="8" id="Masters of Arts"> MA (Masters of Arts)
+                </td>
+            </tr>
+            <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+</body>
+</html>
